@@ -1,0 +1,22 @@
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\bin\Debug\net8.0\SqlBulkCopy CSharp.exe
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\bin\Debug\net8.0\SqlBulkCopy CSharp.deps.json
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\bin\Debug\net8.0\SqlBulkCopy CSharp.runtimeconfig.json
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\bin\Debug\net8.0\SqlBulkCopy CSharp.dll
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\bin\Debug\net8.0\SqlBulkCopy CSharp.pdb
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\obj\Debug\net8.0\SqlBulkCopy CSharp.csproj.AssemblyReference.cache
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\obj\Debug\net8.0\SqlBulkCopy CSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\obj\Debug\net8.0\SqlBulkCopy CSharp.AssemblyInfoInputs.cache
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\obj\Debug\net8.0\SqlBulkCopy CSharp.AssemblyInfo.cs
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\obj\Debug\net8.0\SqlBulkCopy CSharp.csproj.CoreCompileInputs.cache
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\obj\Debug\net8.0\SqlBulkC.515D4329.Up2Date
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\obj\Debug\net8.0\SqlBulkCopy CSharp.dll
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\obj\Debug\net8.0\refint\SqlBulkCopy CSharp.dll
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\obj\Debug\net8.0\SqlBulkCopy CSharp.pdb
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\obj\Debug\net8.0\SqlBulkCopy CSharp.genruntimeconfig.cache
+D:\Cosas\Mi Unidad\PC\Proyectos\Using-SqlBulkCopy-CSharp\obj\Debug\net8.0\ref\SqlBulkCopy CSharp.dll

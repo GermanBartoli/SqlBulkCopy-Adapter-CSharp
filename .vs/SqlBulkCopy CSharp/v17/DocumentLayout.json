@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Cosas\\Mi Unidad\\PC\\Proyectos\\SqlBulkCopy-CSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80CEA77F-C7CE-4E82-A070-1C813E6604E3}|SqlBulkCopy CSharp.csproj|d:\\cosas\\mi unidad\\pc\\proyectos\\sqlbulkcopy-csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CEA77F-C7CE-4E82-A070-1C813E6604E3}|SqlBulkCopy CSharp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CEA77F-C7CE-4E82-A070-1C813E6604E3}|SqlBulkCopy CSharp.csproj|d:\\cosas\\mi unidad\\pc\\proyectos\\sqlbulkcopy-csharp\\sqlbulkcopy csharp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{80CEA77F-C7CE-4E82-A070-1C813E6604E3}|SqlBulkCopy CSharp.csproj|solutionrelative:sqlbulkcopy csharp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Cosas\\Mi Unidad\\PC\\Proyectos\\SqlBulkCopy-CSharp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Cosas\\Mi Unidad\\PC\\Proyectos\\SqlBulkCopy-CSharp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T23:56:28.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SqlBulkCopy CSharp",
+              "DocumentMoniker": "D:\\Cosas\\Mi Unidad\\PC\\Proyectos\\SqlBulkCopy-CSharp\\SqlBulkCopy CSharp.csproj",
+              "RelativeDocumentMoniker": "SqlBulkCopy CSharp.csproj",
+              "ToolTip": "D:\\Cosas\\Mi Unidad\\PC\\Proyectos\\SqlBulkCopy-CSharp\\SqlBulkCopy CSharp.csproj",
+              "RelativeToolTip": "SqlBulkCopy CSharp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-19T23:55:59.513Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
