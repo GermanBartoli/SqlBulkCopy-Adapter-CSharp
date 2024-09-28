@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SqlBulkCopy CSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87d0b2de0458f7029c75698938207169ccb31fd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("SqlBulkCopy CSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SqlBulkCopy CSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

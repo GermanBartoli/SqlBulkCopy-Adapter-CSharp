@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Cosas\\Proyectos\\SqlBulkCopy-CSharp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{80CEA77F-C7CE-4E82-A070-1C813E6604E3}|SqlBulkCopy CSharp.csproj|c:\\cosas\\proyectos\\sqlbulkcopy-csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80CEA77F-C7CE-4E82-A070-1C813E6604E3}|SqlBulkCopy CSharp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80CEA77F-C7CE-4E82-A070-1C813E6604E3}|SqlBulkCopy CSharp.csproj|c:\\cosas\\proyectos\\sqlbulkcopy-csharp\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80CEA77F-C7CE-4E82-A070-1C813E6604E3}|SqlBulkCopy CSharp.csproj|solutionrelative:programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80CEA77F-C7CE-4E82-A070-1C813E6604E3}|SqlBulkCopy CSharp.csproj|c:\\cosas\\proyectos\\sqlbulkcopy-csharp\\notas.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{80CEA77F-C7CE-4E82-A070-1C813E6604E3}|SqlBulkCopy CSharp.csproj|solutionrelative:notas.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80CEA77F-C7CE-4E82-A070-1C813E6604E3}|SqlBulkCopy CSharp.csproj|c:\\cosas\\proyectos\\sqlbulkcopy-csharp\\sqlbulkcopy csharp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{80CEA77F-C7CE-4E82-A070-1C813E6604E3}|SqlBulkCopy CSharp.csproj|solutionrelative:sqlbulkcopy csharp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 52,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -211,70 +194,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Programm.cs",
-              "DocumentMoniker": "C:\\Cosas\\Proyectos\\SqlBulkCopy-CSharp\\Programm.cs",
-              "RelativeDocumentMoniker": "Programm.cs",
-              "ToolTip": "C:\\Cosas\\Proyectos\\SqlBulkCopy-CSharp\\Programm.cs",
-              "RelativeToolTip": "Programm.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAuwFcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T00:54:31.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Notas.txt",
-              "DocumentMoniker": "C:\\Cosas\\Proyectos\\SqlBulkCopy-CSharp\\Notas.txt",
-              "RelativeDocumentMoniker": "Notas.txt",
-              "ToolTip": "C:\\Cosas\\Proyectos\\SqlBulkCopy-CSharp\\Notas.txt",
-              "RelativeToolTip": "Notas.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-25T00:52:54.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Cosas\\Proyectos\\SqlBulkCopy-CSharp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Cosas\\Proyectos\\SqlBulkCopy-CSharp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwAgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T23:56:28.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SqlBulkCopy CSharp",
-              "DocumentMoniker": "C:\\Cosas\\Proyectos\\SqlBulkCopy-CSharp\\SqlBulkCopy CSharp.csproj",
-              "RelativeDocumentMoniker": "SqlBulkCopy CSharp.csproj",
-              "ToolTip": "C:\\Cosas\\Proyectos\\SqlBulkCopy-CSharp\\SqlBulkCopy CSharp.csproj",
-              "RelativeToolTip": "SqlBulkCopy CSharp.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-19T23:55:59.513Z"
             }
           ]
         }
