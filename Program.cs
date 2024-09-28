@@ -1,65 +1,101 @@
-﻿using System;
-using System.Data;
+﻿using System.Data;
 using System.Data.SqlClient;
 using System.Diagnostics;
 
-namespace BulkInsertExample
+namespace Using_SqlBulkCopy_CSharp
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            string connectionString = "Data Source=German;Initial Catalog=SqlBulkCopy;User ID=sa;Password=1234";
+            // Cadena de conexión a tu base de datos (reemplázala con la tuya)
+            string connectionString = "Data Source=German;Initial Catalog=bulkcopy;User ID=sa;Password=1234";
 
-            DataTable dataTable = CrearDataTable(); // Método para crear DataTable con 80,000 registros
+            // Datos de muestra para insertar
+            DataTable dataTable = new DataTable();
+            dataTable.Columns.Add("valor", typeof(int));
+            dataTable.Columns.Add("string", typeof(string));
 
+            // Agregar   filas a la DataTable
+            for (int i = 0; i < 80000; i++)
+            {
+                DataRow row = dataTable.NewRow();
+                row["valor"] = i;
+                row["string"] = $"Valor {i}";
+                dataTable.Rows.Add(row);
+            }
+
+            // Crear una nueva instancia de Stopwatch.
+            Stopwatch stopwatch = new Stopwatch();
+
+            // Comenzar a medir el tiempo.
+            stopwatch.Start();
+
+            // Método 1: SqlDataAdapter
+            Console.WriteLine("Insertando datos con SqlDataAdapter...");
+            InsertarConDataAdapter(connectionString, dataTable);
+
+            Console.WriteLine("Datos insertados correctamente.");
+            // Detener la medición del tiempo.
+            stopwatch.Stop();
+
+            // Obtener el tiempo transcurrido como un objeto TimeSpan.
+            TimeSpan ts = stopwatch.Elapsed;
+
+            // Mostrar el tiempo transcurrido en la consola.
+            Console.WriteLine("Tiempo transcurrido: {0:hh\\:mm\\:ss\\.ff}", ts);
+
+            // Crear una nueva instancia de Stopwatch.
+            stopwatch = new Stopwatch();
+
+            // Comenzar a medir el tiempo.
+            stopwatch.Start();
+
+            // Método 2: SqlBulkCopy
+            Console.WriteLine("Insertando datos con SqlBulkCopy...");
+            InsertarConBulkCopy(connectionString, dataTable);
+
+            stopwatch.Stop();
+
+            // Obtener el tiempo transcurrido como un objeto TimeSpan.
+            ts = stopwatch.Elapsed;
+
+            // Mostrar el tiempo transcurrido en la consola.
+            Console.WriteLine("Tiempo transcurrido: {0:hh\\:mm\\:ss\\.ff}", ts);
+        }
+
+        private static void InsertarConDataAdapter(string connectionString, DataTable dataTable)
+        {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                connection.Open();
-                using (SqlBulkCopy bulkCopy = new SqlBulkCopy(connection))
+                using (SqlDataAdapter adapter = new SqlDataAdapter())
                 {
-                    bulkCopy.DestinationTableName = "Table_1"; // Nombre de la tabla en la base de datos
-                    try
-                    {
-                        // Crear una nueva instancia de Stopwatch.
-                        Stopwatch stopwatch = new Stopwatch();
+                    SqlCommandBuilder commandBuilder = new SqlCommandBuilder(adapter);
+                    adapter.SelectCommand = new SqlCommand("SELECT * FROM bulkcopytable", connection);
 
-                        // Comenzar a medir el tiempo.
-                        stopwatch.Start();
+                    adapter.InsertCommand = commandBuilder.GetInsertCommand();
+                    //adapter.InsertCommand = new SqlCommandBuilder(adapter).GetInsertCommand();
 
-                        bulkCopy.WriteToServer(dataTable);
-                        Console.WriteLine("Datos insertados correctamente.");
-                        // Detener la medición del tiempo.
-                        stopwatch.Stop();
-
-                        // Obtener el tiempo transcurrido como un objeto TimeSpan.
-                        TimeSpan ts = stopwatch.Elapsed;
-
-                        // Mostrar el tiempo transcurrido en la consola.
-                        Console.WriteLine("Tiempo transcurrido: {0:hh\\:mm\\:ss\\.ff}", ts);
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine("Error al insertar datos: " + ex.Message);
-                    }
+                    connection.Open();
+                    int rowsNumber = adapter.Update(dataTable);
+                    //adapter.Fill(dataTable);
+                    connection.Close();
                 }
             }
         }
 
-        static DataTable CrearDataTable()
+        private static void InsertarConBulkCopy(string connectionString, DataTable dataTable)
         {
-            DataTable dataTable = new DataTable();
-            // Agregar columnas a tu DataTable según tu esquema de base de datos
-            // Por ejemplo:
-            dataTable.Columns.Add("Columna1", typeof(int));
-            dataTable.Columns.Add("Columna2", typeof(string));
-            // ...
-            // Agregar 80,000 filas con datos ficticios
-            for (int i = 0; i < 80000; i++)
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                dataTable.Rows.Add(i, "Dato " + i.ToString());
+                using (SqlBulkCopy bulkCopy = new SqlBulkCopy(connection))
+                {
+                    bulkCopy.DestinationTableName = "bulkcopytable";
+                    connection.Open();
+                    bulkCopy.WriteToServer(dataTable);
+                    connection.Close();
+                }
             }
-            return dataTable;
         }
     }
 }
