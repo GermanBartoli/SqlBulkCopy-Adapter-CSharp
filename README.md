@@ -1,2 +1,2 @@
-# SqlBulkCopy-CSharp
+# SqlBulkCopy-Adapter-CSharp
  
